@@ -34,7 +34,10 @@ void loop()
      grau[1] = grau[2];
      grau[2] = 0;
     }
-    
+    if(i == 1) {
+      grau[0] = grau[2];
+      grau[1],grau[2] = 0;
+    }    
   }
   int valor_grau = 0;
   valor_grau =  grau[0]*pow(10,0)+ grau[1]*pow(10,1)+ grau[2]*pow(10,2);
